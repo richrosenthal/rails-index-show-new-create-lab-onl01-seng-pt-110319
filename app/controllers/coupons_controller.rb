@@ -13,7 +13,7 @@ class CouponsController < ApplicationController
   end
 
    def create
-        coupon = Coupon.create(store: params[:store], coupon_code: params[:coupon_code])
+        coupon = Coupon.create(coupon_code: params[:coupon_code],store: params[:store])
         redirect_to coupon_path(coupon)
     end
 
