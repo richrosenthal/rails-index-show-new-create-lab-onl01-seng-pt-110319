@@ -54,7 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   
-  resources :coupons 
+  resources :coupons
+ 
 
   
 end
