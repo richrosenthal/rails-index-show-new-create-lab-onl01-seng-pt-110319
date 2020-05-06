@@ -16,11 +16,11 @@ describe 'Multiple coupons are shown' do
   end
 end
 
-describe 'form page' do
-  it 'form renders with the new action' do
-    visit new_coupon_path
-    expect(page).to have_content("Coupon Form")
-  end
+# describe 'form page' do
+#   it 'form renders with the new action' do
+#     visit new_coupon_path
+#     expect(page).to have_content("Coupon Form")
+#   end
 
   # it 'new form submits content and renders form content' do
   #   visit new_coupon_path
